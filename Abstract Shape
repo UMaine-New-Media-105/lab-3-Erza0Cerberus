@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(400, 450);
+}
+ 
+function draw() {
+  
+noStroke();
+  background("white");
+   if(mouseX > 100){
+  
+fill ("salmon");
+  
+} else if (mouseX<100 && mouseX <200){
+  fill ("khaki");
+}
+//shapes
+
+  ellipse(150, 80, 40, 150);
+ ellipse(250, 80, 40, 150);
+
+ellipse(200, 225, 250, 340);
+
+ellipse(202, 390, 80, 50)
+
+
+}
